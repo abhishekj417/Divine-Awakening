@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background-color: #f6f8fb; color: #1f2937; }
+.pill { display: inline-block; padding: 4px 10px; border-radius: 999px; font-weight: 700; font-size: 12px; white-space: nowrap; }
+.pill-ok { background: #dcfce7; color: #15803d; }
+.pill-warn { background: #fef3c7; color: #b45309; }
+.pill-bad { background: #fee2e2; color: #b91c1c; }
+.pill-neutral { background: #e5eef9; color: #1f4e78; }
